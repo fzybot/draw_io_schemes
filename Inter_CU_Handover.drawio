@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T02:56:11.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SiS4u_FWusnOZKZ2oYeT" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T03:13:21.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QH8Y5Q3RBuo5iTPW3ix3" version="21.1.1" type="github">
   <diagram name="Page-1" id="ntlwcirGqWGYWwClvYJs">
-    <mxGraphModel dx="2880" dy="2163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2025" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eY2_cheVj6THHlVWZL7n-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="40" width="430" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="01Hzk-wRed-KmRM_JVlv-217" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="eY2_cheVj6THHlVWZL7n-2">
+        <mxCell id="01Hzk-wRed-KmRM_JVlv-217" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#99FF99;" vertex="1" parent="eY2_cheVj6THHlVWZL7n-2">
           <mxGeometry x="325" y="170" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="01Hzk-wRed-KmRM_JVlv-125" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=40;shadow=0;" vertex="1" parent="1">
@@ -85,8 +85,10 @@
             <mxPoint x="1089.5" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="01Hzk-wRed-KmRM_JVlv-11" value="Parameters" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;treeMoving=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-410" width="200" height="410" as="geometry" />
+        <mxCell id="01Hzk-wRed-KmRM_JVlv-11" value="Parameters" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;treeMoving=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-410" width="200" height="410" as="geometry">
+            <mxRectangle x="40" y="-410" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="01Hzk-wRed-KmRM_JVlv-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="01Hzk-wRed-KmRM_JVlv-11">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -767,10 +769,15 @@
             <mxPoint x="340" y="-50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="01Hzk-wRed-KmRM_JVlv-215" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="01Hzk-wRed-KmRM_JVlv-217">
+        <mxCell id="01Hzk-wRed-KmRM_JVlv-215" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#99FF99;" edge="1" parent="1" source="01Hzk-wRed-KmRM_JVlv-217">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="210" as="sourcePoint" />
             <mxPoint x="890" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Hzk-wRed-KmRM_JVlv-224" value="XnAP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#99FF99;" vertex="1" connectable="0" parent="01Hzk-wRed-KmRM_JVlv-215">
+          <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
+            <mxPoint x="-40" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="01Hzk-wRed-KmRM_JVlv-216" value="1. Handover Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
